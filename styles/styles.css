@@ -22,3 +22,21 @@ nav li:hover {
    border-radius: 8px;
    border: none;
 }
+.big-font{
+    font-size: 72px;
+}
+.banner  input{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+::placeholder{
+    font-size: 20px;
+    
+    margin-top: -4px;
+   
+}
+.banner ,.banner img{
+    width: 1100px;
+    margin: auto;
+}
