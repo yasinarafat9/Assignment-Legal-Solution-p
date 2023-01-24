@@ -66,10 +66,24 @@ main .next-icon img{
 .max-wide{
     max-width: 1100px;
 }
+.faq-wide{
+    max-width: 570px;
+}
 
 
 .carousel, .carousel img{
     width: 1170px;
     
     margin: auto;
+}
+/* footer */
+.footer-bg{
+    margin: auto;
+    background: #111111;
+    max-width: 1920px;
+    height: 700px;
+
+}
+footer p{
+    color: rgb(214, 213, 213);
 }
