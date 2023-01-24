@@ -25,6 +25,12 @@ nav li:hover {
 .big-font{
     font-size: 72px;
 }
+.banner{
+    text-shadow: 0px 0px 10px rgb(54, 151, 241);
+}
+.banner p{
+    text-shadow: 0px 0px 10px rgb(241, 54, 54);
+}
 .banner  input{
     display: flex;
     flex-wrap: wrap;
@@ -38,5 +44,32 @@ nav li:hover {
 }
 .banner ,.banner img{
     width: 1100px;
+    margin: auto;
+}
+main .card{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .card img{
+    width: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .next-icon img{
+    width: 32px;
+    height: 32px;
+}
+.max-wide{
+    max-width: 1100px;
+}
+
+
+.carousel, .carousel img{
+    width: 1170px;
+    
     margin: auto;
 }
