@@ -55,7 +55,26 @@
                   </li>                                   
                 </ul>
                 <!-- <input type="button" value="Free Consultation" onclick="alert('Is That what you wanted to see after clicking this button or a new tab or something else?')"> -->
-                  <button class="web-btn" type="submit" onclick="alert('You wanted to see a moral opens after clicking this button is this what it is..')">Free Consultation</button>
+                  <!-- <button class="web-btn" type="submit" onclick="alert('You wanted to see a moral opens after clicking this button is this what it is..')">Free Consultation</button> -->
+                  <button class="web-btn" data-bs-toggle="modal" data-bs-target="#myModal">Free Consultation</button>
+                  <div class="modal" id="myModal" tabindex="-1">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Modal Added</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <h1>Modal Opens</h1>
+                          <img class="w-50" src="images/Law-school.jpg" alt="">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 
               </div>
             </div>
@@ -63,7 +82,7 @@
           
         <!-- Header banner -->
         <section class="banner my-4"><!-- Header banner -->
-            <div class="card text-bg-dark ">
+            <div class=" card text-bg-dark ">
                 <img class="img-fluid" src="/images/banner.png" class="card-img img-fluid" alt="...">
                 <div class="card-img-overlay w-75 mx-auto my-auto">
                   <h5 class="card-title big-font text-center my-3">
@@ -288,9 +307,9 @@
           </div>
         <div class="m-5">
           <div class="max-wide m-auto d-flex justify-content-evenly " >
-            <img class="img-fluid w-50 rounded" src="images/slider-3 px cropped.png" class="rounded" alt="...">
-            <img class="img-fluid w-50 rounded" src="images/slider-1.jpg" class="rounded" alt="...">
-            <img class="img-fluid w-50 rounded" src="images/slider-2.jpg " class="rounded" alt="...">
+            <img class="img-fluid w-50 " src="images/slider-3 px cropped.png" class="" alt="...">
+            <img class="img-fluid w-50 " src="images/slider-1.jpg" class="" alt="...">
+            <img class="img-fluid w-50 " src="images/slider-2.jpg " class="" alt="...">
             
           </div>
         </div>
